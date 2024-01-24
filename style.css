@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#second-input-number, #first-input-number {
+  width: 87px;
+  height: 27px;
+  padding: 3px;
+  border: 1px solid #000;
+}
+#operation {
+  padding: 2px;
+  outline: none;
+  border-radius: 5px;
+  border: 3px solid rgb(99, 152, 248);
+}
+#operation:checked {
+  background: #3531f0;
+}
+#equal_button {
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 9px 15px;
+  background: #fff;
+}
